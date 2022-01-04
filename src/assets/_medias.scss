@@ -1,0 +1,48 @@
+// 360px
+@mixin xxs {
+    @media (max-width: #{$xxs}){
+      @content;
+    }
+  }
+  
+  // 480px
+  @mixin xs {
+    @media (max-width: #{$xs}){
+      @content;
+    }
+  }
+  
+  // 575px
+  @mixin sm {
+    @media (max-width: #{$sm}){
+      @content;
+    }
+  }
+  
+  // 768px
+  @mixin md {
+    @media (max-width: #{$md}){
+      @content;
+    }
+  }
+  
+  // 1024px
+  @mixin lg {
+    @media (max-width: #{$lg}){
+      @content;
+    }
+  }
+  
+  // 1200px
+  @mixin xl {
+    @media (max-width: #{$xl}){
+      @content;
+    }
+  }
+  
+  // 1440px
+  @mixin xxl {
+    @media (max-width: #{$xxl}){
+      @content;
+    }
+  }

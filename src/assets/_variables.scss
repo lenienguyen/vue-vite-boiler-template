@@ -1,0 +1,27 @@
+// Colors
+$colors : (
+        "darkblue" : #1C244D,
+        "blue": #22338B,
+        "bluemiddle": #3C75B7,
+        "yellow" : #FFE466,
+        "yellowBanner": #FFEB8D,
+        "lightyellow": #FFEFA3,
+        "turquoise" : #008184,
+        "lightblue" : #569CEC,
+        "red" : #E5332A,
+        "white" : #fff,
+        "purple": #6D1C51,
+        "lightgrey": #C8C8C8,
+        "borderBtn": #E1E9E9,
+        "bgPage":#FAFBFB,
+        "inputColor":#E1E9E9,
+        "showBtn":#F5FBFB,
+        "aquamarine":#3C75B7,
+);
+
+// Loop
+:root{
+    @each $key, $value in $colors {
+      --#{$key} : #{$value};
+    }
+}

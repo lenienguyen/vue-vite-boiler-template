@@ -1,0 +1,39 @@
+// Tailwind CSS
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// SCSS Imports
+@import './breakpoints';
+@import './medias';
+@import './variables';
+
+// SCSS
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--darkblue);
+
+    @include md{
+        background:var(--bluemiddle);
+    }
+
+    a{
+        color:red;
+    }
+
+    .test{
+        display:flex;
+        justify-content: space-evenly;
+        appearance:none;
+        color:blue;
+    
+        p{
+            color:lightcoral;
+        }
+    }
+}
